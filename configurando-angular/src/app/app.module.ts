@@ -11,6 +11,9 @@ import { ComponentePersonalizadoComponent } from './componente-personalizado/com
 import { Servico2Component } from './servico2/servico2.component';
 import { PipeCustomizadoComponent } from './pipe-customizado/pipe-customizado.component';
 import { MultiplicaPorPipe } from './multiplica-por.pipe';
+import { RenderizandoListasComponent } from './renderizando-listas/renderizando-listas.component';
+import { SegundoComponenteComponent } from './segundo-componente/segundo-componente.component';
+import { TwoWayDataBindingComponent } from './two-way-data-binding/two-way-data-binding.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +24,10 @@ import { MultiplicaPorPipe } from './multiplica-por.pipe';
     ComponentePersonalizadoComponent,
     Servico2Component,
     PipeCustomizadoComponent,
-    MultiplicaPorPipe
+    MultiplicaPorPipe,
+    RenderizandoListasComponent,
+    SegundoComponenteComponent,
+    TwoWayDataBindingComponent
   ],
   imports: [
     BrowserModule,
