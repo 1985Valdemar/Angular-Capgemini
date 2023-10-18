@@ -9,6 +9,8 @@ import { PaiComponent } from './pai/pai.component';
 import { FilhoComponent } from './filho/filho.component';
 import { ComponentePersonalizadoComponent } from './componente-personalizado/componente-personalizado.component';
 import { Servico2Component } from './servico2/servico2.component';
+import { PipeCustomizadoComponent } from './pipe-customizado/pipe-customizado.component';
+import { MultiplicaPorPipe } from './multiplica-por.pipe';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { Servico2Component } from './servico2/servico2.component';
     PaiComponent,
     FilhoComponent,
     ComponentePersonalizadoComponent,
-    Servico2Component
+    Servico2Component,
+    PipeCustomizadoComponent,
+    MultiplicaPorPipe
   ],
   imports: [
     BrowserModule,
