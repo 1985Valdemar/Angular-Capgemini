@@ -14,6 +14,7 @@ import { MultiplicaPorPipe } from './multiplica-por.pipe';
 import { RenderizandoListasComponent } from './renderizando-listas/renderizando-listas.component';
 import { SegundoComponenteComponent } from './segundo-componente/segundo-componente.component';
 import { TwoWayDataBindingComponent } from './two-way-data-binding/two-way-data-binding.component';
+import { CardComponent } from './card/card.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { TwoWayDataBindingComponent } from './two-way-data-binding/two-way-data-
     MultiplicaPorPipe,
     RenderizandoListasComponent,
     SegundoComponenteComponent,
-    TwoWayDataBindingComponent
+    TwoWayDataBindingComponent,
+    CardComponent
   ],
   imports: [
     BrowserModule,
